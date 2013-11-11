@@ -1,16 +1,16 @@
 
-<form class="form-horizontal" method="get" action="/signin">
+<form class="form-horizontal" method="post" action="/signin">
   <legend>Sign In to enter in Wonderland</legend>
   <div class="control-group">
     <label class="control-label" for="login">Login</label>
     <div class="controls">
-      <input type="text" id="login" placeholder="Login" autofocus />
+      <input type="text" id="login" name="login" placeholder="Login" required="required" />
     </div>
   </div>
   <div class="control-group">
     <label class="control-label" for="password">Password</label>
     <div class="controls">
-      <input type="password" id="password" placeholder="Password" />
+      <input type="password" id="password" name="password" placeholder="Password" />
     </div>
   </div>
   <div class="control-group">
