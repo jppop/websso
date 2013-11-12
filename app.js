@@ -21,7 +21,7 @@ app.configure(function() {
 });
 
 app.get('/', function(req, res) {
-    console.log('sso: ' + JSON.stringify(req.query, true, 2));
+    //console.log('sso: ' + JSON.stringify(req.query, true, 2));
     res.render('index');
 });
 app.get('/about', function(req, res) {
